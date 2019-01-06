@@ -1,0 +1,43 @@
+{
+    "extends": [
+        "react-app",
+        "plugin:react/recommended",
+        "prettier",
+        "prettier/react",
+        "plugin:jest/recommended"
+    ],
+    "env": {
+        "jest/globals": true
+    },
+    "globals": {
+        "shallow": true,
+        "render": true,
+        "mount": true,
+        "sinon": true,
+        "Enzyme": true,
+        "cleanup": true,
+        "waitForElement": true,
+        "fireEvent": true
+    },
+    "plugins": [
+            "react",
+            "prettier",
+            "jest"
+    ],
+    "parserOptions": {
+        "ecmaFeatures": {
+            "jsx": true,
+            "modules": true
+        }
+    },
+    "rules": {
+        "prettier/prettier": "error",
+        "eslint-disable-next-line", "off",
+        "indent": ["error",
+            2, {
+                "SwitchCase": 1,
+                "VariableDeclarator": 1
+            }
+        ]
+    }
+}

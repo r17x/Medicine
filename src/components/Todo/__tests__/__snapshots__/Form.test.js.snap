@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Form should render correctly in "debug" mode 1`] = `
+<Form(FormExport)
+  fields={
+    Array [
+      Object {
+        "element": <Input
+          disabled={false}
+          placeholder="Create your Todo..."
+          prefixCls="ant-input"
+          type="text"
+        />,
+        "id": "title",
+        "options": Object {
+          "rules": Array [
+            Object {
+              "required": true,
+            },
+          ],
+        },
+      },
+    ]
+  }
+  hideCancel={true}
+  title="Todo"
+/>
+`;
