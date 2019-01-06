@@ -14,6 +14,10 @@ let store
 
 if (NODE_ENV === 'production') {
   store = createStore(new StoreWorker())
+  Storage.get() && store.setState(Storage.get(), true)
+  store.subscribe(e => {
+    Storage.save(e)
+  })
 } else {
   store = createStore(new StoreWorker())
   Storage.get() && store.setState(Storage.get(), true)
