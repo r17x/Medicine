@@ -18,4 +18,5 @@ before_script:
   
 script:
   - yarn build
+  - ./build.js
   - yarn deploy:travis

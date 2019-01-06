@@ -7,7 +7,6 @@
     "react-dom": "^16.7.0",
     "ri7nz-react-scripts": "2.1.2"
   },
-  "homepage": "https://medicine.rin.rocks/",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
