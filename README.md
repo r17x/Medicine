@@ -1,4 +1,4 @@
-# Medicine
+# Medicine [![Build Status](https://travis-ci.com/ri7nz/Edotensei.svg?branch=master)](https://travis-ci.com/ri7nz/Edotensei)
 
 Simple Todo with Create-React-app (Medicine is a song by Bring Me The Horizon - Love & Inspiring me)
 
