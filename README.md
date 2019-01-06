@@ -7,7 +7,9 @@ Simple Todo with Create-React-app (Medicine is a song by Bring Me The Horizon - 
 - React-Router
 - Antd (UI Library)
 - React-testing-library
-- Storybook/React 
+- Storybook/React   
+### Audits & Performance
+- Check this out [Audits](https://github.com/ri7nz/Medicine/tree/dev/audits)
 
 ### Development 
 ```
