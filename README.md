@@ -13,7 +13,10 @@ Simple Todo with Create-React-app (Medicine is a song by Bring Me The Horizon - 
 
 ### Development 
 ```
+$ git clone https://github.com/ri7nz/Medicine.git && cd Medicine
+$ yarn install
 $ yarn start #npm start
+# Happy hacking!
 ```
 <div style="display:block;text-align:center">
 <img src="https://github.com/ri7nz/Medicine/blob/dev/docs/main.png"/>
