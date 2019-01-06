@@ -2,12 +2,13 @@
 
 Simple Todo with Create-React-app (Medicine is a song by Bring Me The Horizon - Love & Inspiring me)
 
-- CRA v2
-- Unistore (State Management) with Stockroom (store in WebWorker)
-- React-Router
-- Antd (UI Library)
-- React-testing-library
-- Storybook/React   
+- [CRA v2](https://facebook.github.io/create-react-app)
+- [Unistore](https://github.com/developit/unistore) (State Management) with [Stockroom](https://github.com/developit/stockroom) (store in WebWorker)
+- [React-Router](https://github.com/ReactTraining/react-router)
+- [Antd](https://github.com/ant-design/ant-design) (UI Library)
+- [React-testing-library](https://github.com/kentcdodds/react-testing-library)
+- [Storybook/React](https://github.com/storybooks/storybook)
+- [Personal React-scripts](https://www.npmjs.com/package/ri7nz-react-scripts)
 ### Audits & Performance
 - Check this out [Audits](https://github.com/ri7nz/Medicine/tree/dev/audits)
 
