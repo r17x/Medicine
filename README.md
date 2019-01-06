@@ -7,10 +7,22 @@ Simple Todo with Create-React-app (Medicine is a song by Bring Me The Horizon - 
 - React-Router
 - Antd (UI Library)
 - React-testing-library
-- Storybook/React
+- Storybook/React 
+
+### Development 
+```
+$ yarn start #npm start
+```
+<div style="display:block;text-align:center">
+<img src="https://github.com/ri7nz/Medicine/blob/dev/docs/main.png"/>
+  <h3>use Redux DevTools</h3>
+<img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools.png"/>
+<img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools-2.png"/>
+</div>
 
 ### coming soon docs! :keep-Rocks:
 
 ### Special Thanks
 
 - [@zainfathoni](https://github.com/zainfathoni) (I learning lot about testing & storybook from him)
+
