@@ -16,6 +16,9 @@ install:
 before_script:
   - yarn test
   
+before_cache:
+  - rm -rf ./node_modules/gh-pages-with-token/node_modules/gh-pages/.cache
+  
 script:
   - yarn build
   - echo "$CNAME" > build/CNAME
