@@ -25,7 +25,7 @@
     -->
     <title>%REACT_APP_NAME%</title>
     <% for ( var css in htmlWebpackPlugin.files.css ) { %>
-        <link rel="preload" as="style" href="<%=htmlWebpackPlugin.files.css[css]%>" as="style" onload='this.rel="stylesheet"'>
+        <link rel="preload" as="style" href="<%=htmlWebpackPlugin.files.css[css]%>" onload='this.rel="stylesheet"'>
     <% } %>
   </head>
   <body>
