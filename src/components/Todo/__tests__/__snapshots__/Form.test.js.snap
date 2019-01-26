@@ -8,7 +8,6 @@ exports[`Form should render correctly in "debug" mode 1`] = `
         "element": <Input
           disabled={false}
           placeholder="Create your Todo..."
-          prefixCls="ant-input"
           type="text"
         />,
         "id": "title",

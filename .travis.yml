@@ -23,3 +23,6 @@ script:
   - yarn build
   - echo "$CNAME" > build/CNAME
   - yarn deploy:travis
+
+after_success:
+  - yarn test:lh https://$CNAME/
