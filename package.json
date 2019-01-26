@@ -10,6 +10,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "build:logo": "./buildlogo.js",
     "lh": "lighthouse-ci",
     "test": "cross-env NODE_PATH=src/ react-scripts test --env=jsdom",
     "test:lh": "yarn lh --perf=95 --seo=100 --pwa=100 --a11y=100 --bp=100",
@@ -54,6 +55,7 @@
     "lint-staged": "^8.1.0",
     "react-router-dom": "^4.3.1",
     "react-testing-library": "^5.4.4",
+    "sharp": "^0.21.3",
     "sinon": "^7.2.2",
     "stockroom": "^1.0.1",
     "unistore": "^3.1.0",
