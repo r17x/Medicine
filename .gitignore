@@ -10,7 +10,6 @@
 
 # production
 /build
-/docs
 /audits
 
 # misc
