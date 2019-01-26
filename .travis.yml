@@ -22,6 +22,7 @@ before_cache:
 script:
   - yarn build
   - echo "$CNAME" > build/CNAME
+  - yarn build:logo
   - yarn deploy:travis
 
 after_success:
