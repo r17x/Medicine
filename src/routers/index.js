@@ -17,6 +17,7 @@ const DrawerMenu = connect(
     onClick={e => setDrawer()}
   />
 ))
+
 /**
  * Main Routers Of Application
  * @params {object} props
@@ -28,7 +29,7 @@ export const MainRouter = () => {
     <Router>
       <>
         <Header theme="dark" className="header">
-          <DrawerMenu />
+          {<DrawerMenu />}
           <Menus />
         </Header>
         <Content className="content">

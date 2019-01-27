@@ -12,7 +12,7 @@
     "build": "react-scripts build",
     "build:logo": "./buildlogo.js",
     "lh": "lighthouse-ci",
-    "test": "cross-env NODE_PATH=src/ react-scripts test --env=jsdom",
+    "test": "cross-env NODE_PATH=src/ react-scripts test --env=jsdom --coverage",
     "test:lh": "yarn lh --perf=95 --seo=100 --pwa=100 --a11y=100 --bp=100",
     "eject": "react-scripts eject",
     "build:storybook": "build-storybook -s public",

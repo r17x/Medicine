@@ -4,8 +4,6 @@ import Layout from 'antd/lib/layout'
 import MainRouter from 'routers'
 import { MenuList } from 'routers/routers'
 import Drawer from 'components/Drawer'
-import FormLogin from 'components/Form/Login'
-
 import { connect } from 'unistore/react'
 
 /**
@@ -55,7 +53,19 @@ class App extends Component {
       <Layout theme="dark">
         <MainRouter />
         <Drawer {...this.state.drawer}>
-          {!this.props.user && <FormLogin save={this.props.login} />}
+          <h3> Medicine Todo </h3>
+          <ul>
+            <li>
+              <a
+                alt="Fork Me On Github"
+                target="_blank"
+                rel="noreferrer noopener"
+                href="https://github.com/ri7nz/Medicine"
+              >
+                Fork Me On Github
+              </a>
+            </li>
+          </ul>
         </Drawer>
       </Layout>
     )

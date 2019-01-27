@@ -43,8 +43,20 @@
 }
 
 .content {
-  min-height: 600;
+  min-height: 600px;
   padding: 3rem 0px;
+}
+
+@media only screen and (max-width: 425px) {
+  .content {
+    min-height: 45em;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    min-height: 63em;
+  }
 }
 
 .header {
