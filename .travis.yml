@@ -20,9 +20,10 @@ before_cache:
   - rm -rf ./node_modules/gh-pages-with-token/node_modules/gh-pages/.cache
   
 script:
+  - yarn build:logo
   - yarn build
   - echo "$CNAME" > build/CNAME
-  - if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ];then yarn build:logo;  yarn deploy:travis; fi
+  - if [ "$TRAVIS_BRANCH" == "master" ] && [ "$TRAVIS_PULL_REQUEST" == "false" ];then yarn deploy:travis; fi
 
 after_success:
   - yarn test:lh https://$CNAME/

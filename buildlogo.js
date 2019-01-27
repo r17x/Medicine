@@ -6,7 +6,7 @@ const original = sharp('./public/logo.png')
 listSize.forEach(imgSize => {
   original
     .resize(imgSize, imgSize)
-    .toFile(`./build/logo${imgSize}.png`)
+    .toFile(`./public/logo${imgSize}.png`)
     .then(res => {
       console.log(`Generated Logo with Size: ${imgSize} is OK!`)
     })
