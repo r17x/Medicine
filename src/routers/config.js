@@ -19,11 +19,4 @@ export default [
     exact: true,
     icon: '',
   },
-  {
-    name: '',
-    path: '/report/:slug',
-    component: Todo,
-    exact: true,
-    icon: '',
-  },
 ]
