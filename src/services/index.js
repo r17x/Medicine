@@ -1,4 +1,7 @@
-import axios from 'axios'
+/* global axios */
+// error import axios, for use axios 
+// use importScripts in worker
+// import axios from 'axios'
 // import wpapi from 'wpapi'
 // @var {string} process.env.REACT_APP_API set on .env .env.*
 axios.defaults.baseURL = process.env.REACT_APP_API
