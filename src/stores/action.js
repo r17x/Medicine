@@ -1,5 +1,13 @@
+/* global axios */
+
 import { uniqueArrayObject } from 'utils/object'
 import guid from 'utils/guid'
+
+/**
+ * @example import axios for fetch request
+ * @url https://developer.mozilla.org/en-US/docs/Web/API/WorkerGlobalScope/importScripts
+ * importScripts('https://unpkg.com/axios/dist/axios.min.js') // eslint-disable-line
+ */
 
 const actions = {
   setDrawer({ drawer }) {
