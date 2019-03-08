@@ -20,13 +20,13 @@ $ yarn start #npm start
 ```
 
 <div style="text-align:center">
-  <a href="#development><img src="https://github.com/ri7nz/Medicine/blob/dev/docs/main.png"/></a>
+  <a href="#development"><img src="https://github.com/ri7nz/Medicine/blob/dev/docs/main.png"/></a>
 </div>
                                                                                            
 ### Redux DevTools
 <div style="text-align:center">
-<a href="#development><img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools.png"/></a>
-<a href="#development><img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools-2.png"/></a>
+<a href="#development"><img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools.png"/></a>
+<a href="#development"><img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools-2.png"/></a>
 </div>
 
 ### coming soon docs! :keep-Rocks:
