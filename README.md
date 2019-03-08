@@ -19,11 +19,14 @@ Simple Todo with Create-React-app (Medicine is a song by Bring Me The Horizon - 
 $ yarn start #npm start
 ```
 
-<div style="display:block;text-align:center">
-<img src="https://github.com/ri7nz/Medicine/blob/dev/docs/main.png"/>
-  <h3>use Redux DevTools</h3>
-<img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools.png"/>
-<img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools-2.png"/>
+<div style="text-align:center">
+  <a href="#development><img src="https://github.com/ri7nz/Medicine/blob/dev/docs/main.png"/></a>
+</div>
+                                                                                           
+### Redux DevTools
+<div style="text-align:center">
+<a href="#development><img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools.png"/></a>
+<a href="#development><img src="https://github.com/ri7nz/Medicine/blob/dev/docs/redux-devtools-2.png"/></a>
 </div>
 
 ### coming soon docs! :keep-Rocks:
