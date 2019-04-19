@@ -1,5 +1,17 @@
 {
   "extends": [
     "config:base"
-  ]
+  ],
+  "reactJs": {
+      "description": "All react.js packages & another dependecies use at this project.",
+      "packageNames": [
+        "react",
+        "react-dom",
+        "react-router-dom",
+        "react-testing-library",
+        "unistore",
+        "stockroom",
+        "worker-loader"
+      ]
+    }
 }
