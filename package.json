@@ -36,9 +36,9 @@
     }
   },
   "devDependencies": {
-    "@storybook/addon-actions": "4.1.11",
-    "@storybook/addon-links": "4.1.11",
-    "@storybook/react": "4.1.11",
+    "@storybook/addon-actions": "4.1.18",
+    "@storybook/addon-links": "4.1.18",
+    "@storybook/react": "4.1.18",
     "antd": "3.16.3",
     "babel-loader": "8.0.4",
     "cross-env": "5.2.0",
