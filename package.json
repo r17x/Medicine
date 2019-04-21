@@ -39,7 +39,7 @@
     "@storybook/addon-actions": "4.1.18",
     "@storybook/addon-links": "4.1.18",
     "@storybook/react": "4.1.18",
-    "antd": "3.16.3",
+    "antd": "3.16.4",
     "babel-loader": "8.0.4",
     "cross-env": "5.2.0",
     "enzyme": "3.9.0",
