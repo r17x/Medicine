@@ -38,7 +38,7 @@
   "devDependencies": {
     "@storybook/addon-actions": "5.0.11",
     "@storybook/addon-links": "5.0.11",
-    "@storybook/react": "5.0.11",
+    "@storybook/react": "5.1.9",
     "antd": "3.19.2",
     "babel-loader": "8.0.4",
     "cross-env": "5.2.0",
