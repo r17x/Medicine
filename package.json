@@ -59,7 +59,7 @@
     "sharp": "0.22.1",
     "sinon": "7.3.2",
     "stockroom": "1.0.1",
-    "unistore": "3.4.1",
+    "unistore": "3.5.2",
     "worker-loader": "2.0.0"
   }
 }
